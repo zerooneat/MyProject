@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = (EditText)findViewById(R.id.edit_message);
         String text = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE,text);
+        //start Activity by Intent
         startActivity(intent);
     }
 }
